@@ -91,11 +91,12 @@ def selWiiSM():
     sleep(2)
     
 def execBluebomb():
-    lcd.write_string('Executing...\n\rSpam reset!')
+    lcd.write_string('Executing...\n\rSpam sync!')
     command = " sudo ./bluebomb-auto-helper.sh -c {} -s {} -r {}".format(console, smver, region)
     run_comm = os.system(command)
     lcd.clear()
     lcd.write_string('Bluebomb executed')
+    sleep(5)
     
 while True:
     lcd.clear()
