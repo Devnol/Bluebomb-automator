@@ -99,7 +99,7 @@ def execBluebomb():
     
 while True:
     lcd.clear()
-    lcd.write_string('Bluebomb\n\rhelper v0.3')
+    lcd.write_string('Bluebomb helper\n\r v1.0 beta1')
     sleep(2)
     lcd.clear()
     selConsole()
