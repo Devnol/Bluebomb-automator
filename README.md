@@ -1,5 +1,5 @@
 # Bluebomb-automator
-#### Based on [Fullmetal5's bluebomb exploit](https://github.com/Fullmetal5/bluebomb/releases) and [twosecslater/urmum-69's bluebomb helper shell script.](https://github.com/RiiConnect24/Wii-Guide/blob/master/assets/files/bluebomb-helper.sh)
+#### Based on [Fullmetal5's bluebomb exploit](https://github.com/Fullmetal5/bluebomb/releases) and [twosecslater/urmum-69's bluebomb helper shell script.](https://git.snopyta.org/twosecslater/bluebomb-helper)
 ## Introduction:
   Bluebomb-automator is an automated frontend for the Bluebomb Wii bluetooth exploit designed for use on headless Raspberry Pi single board computers and mass Wii console softmodding. It requires little technical knowledge and some effort to setup but once that's done, you probably won't have to mess with it ever again!
 ## Parts required:
