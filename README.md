@@ -49,9 +49,14 @@
   1. Once you have selected the correct option, turn on the Wii console making sure **No controllers are connected** and repeatedly tap the sync button until the LCD screen displays `Bluebomb executed`. Then release the sync button and choose what to do from [this guide](https://wii.guide/bluebomb) after step 10 (Either install The Homebrew Channel and BootMii for Wii consoles or just The Homebrew Channel for Wii mini consoles.
   1. Since this is designed for batch modding, the program will simply restart. To stop the program, connect back to the Pi via ssh and stop the program by pressing `Ctrl+C`
  ## Credits:
-   TeamTwiizers: HackMii installer developers
-   FullMetal5: Bluebomb exploit developer
-   TwoSecsLater/urmum-69: Bluebomb helper script authors
-   Commandblock6417: Python script author
-   Terry A. Davis: Motivation
+   * TeamTwiizers: HackMii installer developers
+   * FullMetal5: Bluebomb exploit developer
+   * TwoSecsLater/urmum-69: Bluebomb helper script authors
+   * Commandblock6417: Python script author
+   * Terry A. Davis: Motivation
  ### For any questions, problems or requests, [Join the Wii mini hacking server](https://discord.gg/KGBqNRb) (recommended) or create an issue on github.
+ ## To Do List:
+ - [ ] Finalise the GPIO python script
+ - [ ] Add option to quit script without having to enter the shell
+ - [ ] Add option in setup.sh to make the program run on boot/remove it from boot if installed
+ - [ ] Make a showcase video
