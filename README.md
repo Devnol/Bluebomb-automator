@@ -15,14 +15,10 @@
   * 3 push buttons
      
     Any normally open momentary buttons will work, it is recommended that you get two matching colored ones for the Left and Right buttons and one different for the Select button.
-    i2c LCD connection:
       Left -> GPIO pin 23
       Select -> GPIO pin 24
       Right -> GPIO pin 25
-    GPIO LCD connection:
-      Left -> GPIO pin 2
-      Select -> GPIO pin 3
-      Right -> GPIO pin 4
+      
   * Python v3
   
   * Internet access
@@ -35,8 +31,9 @@
    1. Download the repository to a folder from the terminal by using `git clone https://github.com/Commandblock6417/Bluebomb-automator`. 
    1. Navigate to the folder where the executables are by typing `cd Bluebomb-automator`. 
    1. Run the setup script to install all the required packages by running `./setup.sh`.
-   1. Select the script you want to run (This and navigating to the correct directory are the only steps required every time you restart:
-    Either type `python3 Bluebomb-automator-i2c.py` if you have the i2c LCD setup
+   1. Edit the script to correspond to your configuration of screen size and i2c address (notes are in the script itself)
+   1. Run the script (This and navigating to the correct directory are the only steps required every time you restart):
+    Either type `python3 Bluebomb-automator.py` if you have the i2c LCD setup
    #### To enable the i2c interface of your raspberry Pi follow [this guide](https://www.raspberrypi-spy.co.uk/2014/11/enabling-the-i2c-interface-on-the-raspberry-pi/)
     Or `python3 Bluebomb-automator-gpio.py` if you have a non-i2c LCD circuit.
    #### Warning! If you run the script on an ssh terminal such as PuTTY make sure to use `screen -S bluebomb` before running the above commands to create a virtual shell that won't close when you close the ssh connection and `screen -r bluebomb` to reconnect to the shell running the script, otherwise, terminating the ssh connection will stop the script.
@@ -56,7 +53,6 @@
    * Terry A. Davis: Motivation
  ### For any questions, problems or requests, [Join the Wii mini hacking server](https://discord.gg/KGBqNRb) (recommended) or create an issue on github.
  ## To Do List:
- - [ ] Finalise the GPIO python script
  - [ ] Add option to quit script without having to enter the shell
  - [ ] Add option in setup.sh to make the program run on boot/remove it from boot if installed
  - [ ] Make a showcase video

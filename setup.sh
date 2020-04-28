@@ -1,11 +1,10 @@
 
 install(){
 sudo apt-get install python3-pip
-pip3 install adafruit-blinka
-pip3 install adafruit-circuitpython-charlcd
 pip3 install gpiozero
 pip3 install RPLCD
 pip3 install board
+pip3 install smbus
 }
 # Ignore these, they will be added in a future release (maybe)
 #sleep 3
