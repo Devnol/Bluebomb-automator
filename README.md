@@ -11,7 +11,7 @@
     While the script is tested in Raspbian Buster, old versions may work.
   * 16x2 or 20x4 LCD display
     
-    Any monochrome LCD with a **detached** i2c is recommended for ease of assembly while a non-i2c version will work too. Make sure the i2c module is not attached if your LCD requires 5v operation as the raspberry Pi can only accept 3.3v input
+    Any monochrome LCD with a **detached** i2c adapter is recommended for ease of assembly while a non-i2c version will work too. Make sure the i2c module is not attached to your LCD as your LCD requires 5v operation and the raspberry Pi can only accept 3.3v input
   * 3 push buttons
      
     Any normally open momentary buttons will work, it is recommended that you get two matching colored ones for the Left and Right buttons and one different for the Select button.
