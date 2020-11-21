@@ -33,9 +33,9 @@
    1. Run the setup script to install all the required packages by running `./setup.sh`.
    1. Edit the script to correspond to your configuration of screen size and i2c address (notes are in the script itself)
    1. Run the script (This and navigating to the correct directory are the only steps required every time you restart):
-    Either type `python3 Bluebomb-automator.py` if you have the i2c LCD setup
+   Either type `python3 Bluebomb-automator.py` if you have the i2c LCD setup
    #### To enable the i2c interface of your raspberry Pi follow [this guide](https://www.raspberrypi-spy.co.uk/2014/11/enabling-the-i2c-interface-on-the-raspberry-pi/)
-    Or `python3 Bluebomb-automator-gpio.py` if you have a non-i2c LCD circuit.
+   Or `python3 Bluebomb-automator-gpio.py` if you have a non-i2c LCD circuit.
    #### Warning! If you run the script on an ssh terminal such as PuTTY make sure to use `screen -S bluebomb` before running the above commands to create a virtual shell that won't close when you close the ssh connection and `screen -r bluebomb` to reconnect to the shell running the script, otherwise, terminating the ssh connection will stop the script.
   ## Usage:
   1. Follow [this guide](https://wii.guide/bluebomb) up to and including step 5
